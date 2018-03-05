@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
-#include "SyncedMemory.h"
+#include "../utils/SyncedMemory.h"
 
 #define CHECK {\
 	auto e = cudaDeviceSynchronize();\
